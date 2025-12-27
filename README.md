@@ -1,2 +1,20 @@
-# dsa-with-cpp
-Data Structures and Algorithms implemented using C++
+# DSA with C++
+
+This repository contains solutions to various Data Structures and Algorithms problems implemented in C++.
+
+## Folder Structure
+
+arrays/       --> Array problems like (Pair Sum)
+
+## Problems
+
+### 27-Dec-2025
+- pair_sum.cpp               --> Pair Sum problem using brute force
+- pair_sum_twopointer.cpp   --> Pair Sum problem using Two Pointer approach
+
+## How to Run
+
+1. Open the file in VS Code or any C++ IDE
+2. Compile the program: 
+   ```bash
+   g++ filename.cpp -o output
