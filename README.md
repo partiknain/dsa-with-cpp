@@ -4,13 +4,16 @@ This repository contains solutions to various Data Structures and Algorithms pro
 
 ## Folder Structure
 
-arrays/       --> Array problems like (Pair Sum)
+arrays/       --> Array problems like (Pair Sum,most water comtainer,maximum subarray)
 
 ## Problems
 
 ### 27-Dec-2025
 - pair_sum.cpp               --> Pair Sum problem using brute force
 - pair_sum_twopointer.cpp   --> Pair Sum problem using Two Pointer approach
+###  28-dec-2025
+-subarray.cpp       -->subarray problem
+-kadane's.cpp       -->maximum subarray using kadane's algorithm
 
 ## How to Run
 
