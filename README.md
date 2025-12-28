@@ -16,7 +16,8 @@ arrays/       --> Array problems like (Pair Sum,most water comtainer,maximum sub
 ###  28-dec-2025
 - subarray.cpp               -->subarray problem
 - kadane's.cpp              -->maximum subarray using kadane's algorithm
-- 
+- mostwater.cpp            -->most water container problem using brute force approach
+- most-water-container-usingtwo-pointer.cpp      -->most water container problem using two pointer approach
 ## How to Run
 
 1. Open the file in VS Code or any C++ IDE
