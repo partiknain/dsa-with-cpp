@@ -62,7 +62,7 @@ Return the **indices** of those two elements.
 
 ---
 
-## 🛠 Algorithm (Two Pointer)
+## Algorithm (Two Pointer)
 
 1. Initialize two pointers:
    - `left = 0`
