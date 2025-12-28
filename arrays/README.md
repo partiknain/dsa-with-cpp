@@ -51,7 +51,6 @@ Given:
 - An integer array `arr`
 - An integer `target`
 
-
 Return the **indices** of those two elements.
 
 ---
