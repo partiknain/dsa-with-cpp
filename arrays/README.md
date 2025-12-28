@@ -1,6 +1,6 @@
-# 🫗 Container With Most Water (Two Pointer Approach)
+#  Container With Most Water (Two Pointer Approach)
 
-## 📌 Problem Statement
+##  Problem Statement
 You are given an integer array `height` of length `n`.  
 Each element represents the height of a vertical line drawn at that index.
 
@@ -8,7 +8,7 @@ Find **two lines** that together with the x-axis form a container, such that the
 
 ---
 
-## 🧠 Key Insight
+##  Key Insight
 The amount of water a container can store depends on:
 - **Width** = distance between the two lines
 - **Height** = minimum of the two line heights
@@ -16,7 +16,7 @@ The amount of water a container can store depends on:
 
 ---
 
-## 🚀 Optimized Approach: Two Pointer Technique
+##  Optimized Approach: Two Pointer Technique
 
 ### Why Two Pointers?
 - Brute Force checks all pairs → **O(n²)**
@@ -24,7 +24,7 @@ The amount of water a container can store depends on:
 
 ---
 
-## 🛠 Algorithm
+##  Algorithm
 1. Initialize two pointers:
    - `left = 0`
    - `right = n - 1`
@@ -38,15 +38,15 @@ The amount of water a container can store depends on:
 
 
 
-# 🔢 Pair Sum (Two Sum Problem)
+#  Pair Sum (Two Sum Problem)
 
-## 📌 Problem Statement
+##  Problem Statement
 You are given an array of integers and a target value.  
 Your task is to find **two different indices** such that the sum of the elements at those indices is equal to the given target.
 
 ---
 
-## 🧠 Understanding the Problem
+##  Understanding the Problem
 Given:
 - An integer array `arr`
 - An integer `target`
@@ -56,10 +56,10 @@ Return the **indices** of those two elements.
 
 ---
 
-## 🚀 Optimized Approach: Two Pointer Technique
+##  Optimized Approach: Two Pointer Technique
 
-### ⚠️ Important Condition
-👉 **Array must be sorted** for Two Pointer approach.
+###  Important Condition
+ **Array must be sorted** for Two Pointer approach.
 
 ---
 
@@ -80,15 +80,15 @@ Return the **indices** of those two elements.
 
 
 
-# 📈 Kadane’s Algorithm (Maximum Subarray Sum)
+#  Kadane’s Algorithm (Maximum Subarray Sum)
 
-## 📌 Problem Statement
+##  Problem Statement
 You are given an integer array `arr` of size `n`.  
 Find the **contiguous subarray** (containing at least one number) which has the **maximum sum**, and return that sum.
 
 ---
 
-## 🧠 Intuition
+## Intuition
 - Har subarray check karna (Brute Force) → **O(n²)** ❌
 - Kadane’s Algorithm ek **smart greedy approach** hai jo:
   - Negative sum ko aage carry nahi karta
@@ -96,7 +96,7 @@ Find the **contiguous subarray** (containing at least one number) which has the 
 
 ---
 
-## 🚀 Optimized Approach: Kadane’s Algorithm
+## Optimized Approach: Kadane’s Algorithm
 
 ### Key Idea
 At every index:
@@ -107,7 +107,7 @@ Formula:
 
 ---
 
-## 🛠 Algorithm Steps
+##  Algorithm Steps
 1. Initialize:
    - `currentSum = arr[0]`
    - `maxSum = arr[0]`
