@@ -16,6 +16,7 @@ The amount of water a container can store depends on:
 
 ---
 
+
 ##  Optimized Approach: Two Pointer Technique
 
 ### Why Two Pointers?
