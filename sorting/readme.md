@@ -83,5 +83,4 @@ in the already sorted part of the array.
 
 ---
 
-📁 Language Used: **C++**  
-🚀 Focus: **DSA & Problem Solving**
+📁 Language Used: **C++** 
