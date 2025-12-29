@@ -117,3 +117,28 @@ Formula:
 5. Return `maxSum`
 
 ---
+
+
+
+# search in rotated array(using binary search algorithm)
+
+## problem statement 
+you are given an array of name `arr` and size `n`
+array is in rotated position 
+for example arr[7]={3,4,5,6,0,1,2}
+
+---
+
+## binary search algorithm
+-  we find the mid in our rotated array
+-  if our target is at position of mid then return `mid`
+-  if our target is less than mid then our target in left side of rotated array
+-   else our target is in right side of our rotated array
+
+---
+
+### time complexity
+time complexity in search in rotated array is O(logn)
+because size of array is half after one comparision 
+
+---
