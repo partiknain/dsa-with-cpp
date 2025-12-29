@@ -82,5 +82,4 @@ in the already sorted part of the array.
 | Insertion Sort| O(n)     | O(n²)    | O(n²)    | O(1)  |
 
 ---
-
-📁 Language Used: **C++** 
+---
