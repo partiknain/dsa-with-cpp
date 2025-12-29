@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+void selection (int arr[],int n){
+    for (int i=0;i<n;i++){
+        int index=i;
+    for(int j=i+1;j<n;j++){
+            if(arr[j]<arr[index]){
+                index=j;
+            }
+    }
+    int temp=arr[i];
+            arr[i]=arr[index];
+            arr[index]=temp;
+}
+}
+int main (){
+    int arr[]={2,7,5,4,1,8,9,3};
+    int n=8;
+    selection(arr,n);
+    for(int i=0;i<n;i++){
+        cout<<"array after selection sort"<<arr[i]<<endl;
+    }
+}
