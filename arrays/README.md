@@ -141,4 +141,59 @@ for example arr[7]={3,4,5,6,0,1,2}
 time complexity in search in rotated array is O(logn)
 because size of array is half after one comparision 
 
+
+# Peak Index in a Mountain Array
+
+##  Overview
+A **mountain array** is an array where elements **strictly increase** to a maximum value (the peak) and then **strictly decrease** after that.  
+
+The **peak index** is the position of the **maximum element** in this array. Finding it efficiently is a common algorithmic problem.
+
+---
+
+##  Key Concept
+- A mountain array satisfies:
+  - `arr[0] < arr[1] < ... < arr[peak] > arr[peak+1] > ... > arr[n-1]`  
+- The goal is to find the **index of the peak element**.  
+
+---
+
+##  How to Approach
+1. **Brute Force Approach**
+   - Scan the array from start to end.
+   - Compare each element with its neighbors.
+   - The element that is **greater than both neighbors** is the peak.
+   - **Time Complexity:** O(n)
+
+2. **Efficient Approach (Binary Search)**
+   - Use the property of mountain array:
+     - If `arr[mid] < arr[mid+1]` → peak is on the **right side**.
+     - If `arr[mid] > arr[mid+1]` → peak is on the **left side or at mid**.
+   - Narrow down the search space using **binary search**.
+   - **Time Complexity:** O(log n)
+   - **Space Complexity:** O(1)
+
+---
+
+##  Key Observations
+- There is **always exactly one peak** in a valid mountain array.
+- Peak cannot be at the first or last index of the array.
+- The mountain array must have **at least 3 elements**.
+
+---
+
+##  Applications
+- Useful in problems involving:
+  - **Bitonic arrays**
+  - **Stock price analysis**
+  - **Finding maximum efficiently in unimodal sequences**
+- Often used in competitive programming and interview questions.
+
+---
+
+##  Summary
+| Feature | Brute Force | Binary Search |
+|---------|-------------|---------------|
+| Time Complexity | O(n) | O(log n) |
+| Space Complexity | O(1) | O(1) |
 ---
