@@ -197,3 +197,44 @@ The **peak index** is the position of the **maximum element** in this array. Fin
 | Time Complexity | O(n) | O(log n) |
 | Space Complexity | O(1) | O(1) |
 ---
+
+
+
+#  Sorted Two Arrays
+
+##  Problem Statement
+You are given two arrays that are already **sorted in ascending order**.  
+The task is to **combine or process** these arrays while maintaining the sorted order.
+
+---
+
+##  Key Insight
+Since both arrays are already sorted,  
+there is no need to sort the elements again.  
+An efficient solution can be achieved by comparing elements step by step.
+
+---
+
+##  Approach (Two Pointer Technique)
+
+- Place one pointer at the beginning of each array  
+- At each step:
+  - Compare the elements pointed to by both pointers  
+  - Select the smaller element and include it in the result  
+  - Move the pointer forward in the corresponding array  
+- When one array is fully traversed:
+  - Add the remaining elements of the other array directly  
+  - They are already sorted
+
+---
+
+##  Complexity Analysis
+
+- **Time Complexity:** `O(n + m)`  
+  where `n` is the size of the first array and `m` is the size of the second array
+
+- **Space Complexity:**  
+  - Using an extra array → `O(n + m)`  
+  - In-place approach → `O(1)`
+
+---
