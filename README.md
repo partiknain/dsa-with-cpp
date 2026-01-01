@@ -13,6 +13,8 @@ This repository contains solutions to various Data Structures and Algorithms pro
 - most_water_twopointer.cpp -> Container With Most Water (Two Pointer)
 - rotated-array.cpp    ->search in rotated array(binary search algorithm)
 - peak-index.cpp     ->search a peak index of mountain (binarysearch algorithm)
+- merge-two-array  -->merge two sorted arrayproblem
+- dnf.cpp        -->dutch national flag algorithm
 
 ## Sorting
 - selection_sort.cpp -> Selection Sort
@@ -22,6 +24,9 @@ This repository contains solutions to various Data Structures and Algorithms pro
 ## searching
 -  linear.cpp   ->linear search algorithm
 -  binary.cpp   ->binarysearch algorithm
+
+## string
+-  reverse.cpp     -->reverse of string problem
 
 ## How to Run
 
