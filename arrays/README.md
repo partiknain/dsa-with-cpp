@@ -238,3 +238,58 @@ An efficient solution can be achieved by comparing elements step by step.
   - In-place approach → `O(1)`
 
 ---
+
+
+#  Dutch National Flag (DNF) Algorithm
+
+## Problem Statement
+You are given an array containing only **0s, 1s, and 2s**.  
+The task is to sort the array **in a single pass** and **without using extra space**.
+
+---
+
+##  Key Insight
+Since the array contains only three distinct values (0, 1, and 2),  
+we can sort it efficiently by maintaining **three regions** in the array.
+
+---
+
+##  Approach (Three Pointer Technique)
+
+We use three pointers to divide the array into four parts:
+
+1. **Low pointer**  
+   - Marks the boundary for elements equal to `0`
+
+2. **Mid pointer**  
+   - Used to traverse the array
+
+3. **High pointer**  
+   - Marks the boundary for elements equal to `2`
+
+### Working Principle:
+- If the current element is `0`, it is placed in the `low` region  
+- If the current element is `1`, it stays in the middle region  
+- If the current element is `2`, it is placed in the `high` region  
+
+This process continues until all elements are in their correct regions.
+
+---
+
+##  Complexity Analysis
+
+- **Time Complexity:** `O(n)`  
+  (The array is traversed only once)
+
+- **Space Complexity:** `O(1)`  
+  (Sorting is done in-place)
+
+---
+
+##  Why This Algorithm is Efficient?
+
+- Only one traversal of the array is required  
+- No extra memory is used  
+- Optimal solution for sorting 0s, 1s, and 2s
+
+---
