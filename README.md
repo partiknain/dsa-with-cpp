@@ -6,21 +6,21 @@ This repository contains solutions to various Data Structures and Algorithms pro
 
 ## Arrays
 - pair_sum.cpp    -> Pair Sum (Brute Force)
-- pair_sum_twopointer.cpp   -> Pair Sum (Two Pointer)
+- pair_sum_using_twopointer.cpp   -> Pair Sum (Two Pointer)
 - subarray.cpp ->  Subarray Problem
-- kadanes.cpp -> Maximum Subarray (Kadane’s Algorithm)
+- kadane's.cpp -> Maximum Subarray (Kadane’s Algorithm)
 - mostwater.cpp -> Container With Most Water (Brute Force)
-- most_water_twopointer.cpp -> Container With Most Water (Two Pointer)
-- rotated-array.cpp    ->search in rotated array(binary search algorithm)
-- peak-index.cpp     ->search a peak index of mountain (binarysearch algorithm)
-- merge-two-array  -->merge two sorted arrayproblem
+- water-container-usingtwo-pointer.cpp -> Container With Most Water (Two Pointer)
+- rotatedarray.cpp    ->search in rotated array(binary search algorithm)
+- peakindex.cpp     ->search a peak index of mountain (binarysearch algorithm)
+- merge-sorted-array.cpp  -->merge two sorted arrayproblem
 - dnf.cpp        -->dutch national flag algorithm
 
 
 ## Sorting
-- selection_sort.cpp -> Selection Sort
-- bubble_sort.cpp    ->  Bubble Sort
-- insertion_sort.cpp   -> Insertion Sort
+- selection-sort.cpp -> Selection Sort
+- bubble-sort.cpp    ->  Bubble Sort
+- insertion-sort.cpp   -> Insertion Sort
 
 ## searching
 -  linear.cpp   ->linear search algorithm
@@ -28,6 +28,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 
 ## string
 -  reverse.cpp     -->reverse of string problem
+-  palindrom.cpp   -->problem of palindrome of string
 
 ## How to Run
 
