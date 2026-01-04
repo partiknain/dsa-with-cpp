@@ -30,6 +30,10 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -  reverse.cpp     -->reverse of string problem
 -  palindrom.cpp   -->problem of palindrome of string
 
+## recursion
+-  factorial.cpp    ->problemm of factorial of a number using recursion 
+-  fibonacci.cpp    ->problem of fibonacci series using recursion
+
 ## How to Run
 
 1. Open the file in VS Code or any C++ IDE
