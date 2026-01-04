@@ -8,7 +8,6 @@ bool isalphanum(char ch)
     }
     return false;
 
-    
 }
 bool ispalindrom(string s)
 {
