@@ -60,3 +60,37 @@ characters are equal.
 - Palindrome problems are common in interviews and DSA practice.
 - The two-pointer technique is simple and efficient.
 - This method works for strings of any length.
+
+
+# Reverse Words in a String
+
+##  Problem Statement
+Given a string consisting of multiple words separated by spaces, reverse the **order of words** in the string.
+
+
+---
+
+##  Approach / Logic
+
+1. First, reverse the **entire string**.
+2. Then, traverse the string and extract each word.
+3. Reverse each word individually.
+4. Append the words to the result string in correct order.
+5. Remove any extra spaces.
+
+---
+
+##  Algorithm Steps
+
+1. Reverse the complete input string.
+2. Initialize an empty result string.
+3. Loop through the string character by character.
+4. Build each word until a space is encountered.
+5. Reverse the word and add it to the result.
+6. Return the final string.
+
+
+
+time complexity=O(n)
+space complexity=O(n)
+---
