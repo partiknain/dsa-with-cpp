@@ -94,3 +94,37 @@ Given a string consisting of multiple words separated by spaces, reverse the **o
 time complexity=O(n)
 space complexity=O(n)
 ---
+
+# Permutation in String
+
+##  Problem Statement
+Given two strings `s1` and `s2`, check whether **any permutation of `s1` exists as a substring in `s2`**.
+
+In simple words, determine if `s2` contains a substring that is an anagram (rearranged form) of `s1`.
+
+---
+##  Approach / Logic (Sliding Window)
+
+1. Count the frequency of each character in string `s1`.
+2. Use a sliding window of size `s1.length()` on string `s2`.
+3. Maintain a frequency count for the current window in `s2`.
+4. Compare both frequency arrays:
+   - If equal → permutation found.
+   - Else → slide the window forward.
+5. If no match is found till the end, return `false`.
+
+---
+
+##  Algorithm Steps
+
+1. Create a frequency array of size `26` for `s1`.
+2. Create another frequency array for the sliding window.
+3. Traverse `s2` and update window frequency.
+4. When window size equals `s1.length()`, compare both arrays.
+5. Slide the window by removing the left character and adding the next one.
+6. Return result accordingly.
+
+time complexity = O(n)
+space complexity  = O(26)
+---
+
