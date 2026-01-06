@@ -15,6 +15,8 @@ This repository contains solutions to various Data Structures and Algorithms pro
 - peakindex.cpp     ->search a peak index of mountain (binarysearch algorithm)
 - merge-sorted-array.cpp  -->merge two sorted arrayproblem
 - dnf.cpp        -->dutch national flag algorithm
+- maxprofit.cpp   -->problem of maximum profit in a stock buy and sell(leetcode problem)
+- moores.cpp    -->moores voting algorithm to find majority element in a array
 
 
 ## Sorting
