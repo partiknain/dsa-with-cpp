@@ -293,3 +293,28 @@ This process continues until all elements are in their correct regions.
 - Optimal solution for sorting 0s, 1s, and 2s
 
 ---
+# Stock Buy and Sell Problem
+
+##  Problem Statement
+You are given an array `prices` where `prices[i]` is the price of a stock on the `i-th` day.
+
+You want to maximize your profit by choosing **one day to buy** the stock and **a different day in the future to sell** the stock.
+
+Return the **maximum profit** you can achieve.  
+If you cannot achieve any profit, return `0`.
+
+---
+**Explanation:**  
+No profit is possible, so output is `0`.
+
+---
+
+##  Approach (Optimal Solution)
+
+- Keep track of the **minimum price so far**
+- Calculate profit for each day
+- Update maximum profit whenever a higher profit is found
+
+time complexity=O(n)
+space complexity=O(1)
+---
