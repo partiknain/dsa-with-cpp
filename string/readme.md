@@ -89,8 +89,6 @@ Given a string consisting of multiple words separated by spaces, reverse the **o
 5. Reverse the word and add it to the result.
 6. Return the final string.
 
-
-
 time complexity=O(n)
 space complexity=O(n)
 ---
