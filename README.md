@@ -18,8 +18,8 @@ This repository contains solutions to various Data Structures and Algorithms pro
 - maxprofit.cpp   -->problem of maximum profit in a stock buy and sell(leetcode problem)
 - moores.cpp    -->moores voting algorithm to find majority element in a array
 
-
 ## Sorting
+
 - selection-sort.cpp -> Selection Sort
 - bubble-sort.cpp    ->  Bubble Sort
 - insertion-sort.cpp   -> Insertion Sort
