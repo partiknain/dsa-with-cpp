@@ -26,7 +26,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 
 ## searching
 -  linear.cpp   ->linear search algorithm
--  binary.cpp   ->binarysearch algorithm
+-  binary.cpp   ->binary search algorithm
 
 ## string
 -  reverse.cpp     -->reverse of string problem
@@ -35,8 +35,13 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -  permutation.cpp  -->problem of permutation of a string in other string 
 
 ## recursion
--  factorial.cpp    ->problemm of factorial of a number using recursion 
+-  factorial.cpp    ->problem of factorial of a number using recursion 
 -  fibonacci.cpp    ->problem of fibonacci series using recursion
+
+## 2D array
+-  diagonalsum.cpp   ->problem of to find sum of diagonals in matrix
+-  linearsearch.cpp    ->problem of searching element in 2D array using linear search
+-  maxrowsum.cpp     ->problem of to find maximum sum of rows in a matrix
 
 ## How to Run
 
