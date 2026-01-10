@@ -42,6 +42,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -  diagonalsum.cpp   ->problem of to find sum of diagonals in matrix
 -  linearsearch.cpp    ->problem of searching element in 2D array using linear search
 -  maxrowsum.cpp     ->problem of to find maximum sum of rows in a matrix
+-  search.cpp        ->problem of leetcode search in 2d matrix
 
 ## How to Run
 
