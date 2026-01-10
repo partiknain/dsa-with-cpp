@@ -42,9 +42,25 @@ bool searchMatrix(vector<vector<int> >& matrix, int target) {
 
 int main() {
 vector<vector<int> > matrix;
-matrix.push_back({1,2,3});
-matrix.push_back({4,5,6});
-matrix.push_back({7,8,9});
+
+vector<int> r1;
+r1.push_back(1);
+r1.push_back(2);
+r1.push_back(3);
+
+vector<int> r2;
+r2.push_back(4);
+r2.push_back(5);
+r2.push_back(6);
+
+vector<int> r3;
+r3.push_back(7);
+r3.push_back(8);
+r3.push_back(9);
+
+matrix.push_back(r1);
+matrix.push_back(r2);
+matrix.push_back(r3);
 
     int target = 3;
 
