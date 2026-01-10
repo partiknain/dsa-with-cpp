@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-bool searchRow(vector<vector<int>>& matrix, int row, int target) {
+bool searchRow(vector<vector<int> >& matrix, int row, int target) {
     int n = matrix[0].size();
     int st = 0, end = n - 1;
 
@@ -18,7 +18,7 @@ bool searchRow(vector<vector<int>>& matrix, int row, int target) {
     return false;
 }
 
-bool searchMatrix(vector<vector<int>>& matrix, int target) {
+bool searchMatrix(vector<vector<int> >& matrix, int target) {
     int m = matrix.size();
     int n = matrix[0].size();
 
@@ -41,11 +41,10 @@ bool searchMatrix(vector<vector<int>>& matrix, int target) {
 }
 
 int main() {
-    vector<vector<int>> matrix = {
-        {1,2,3},
-        {4,5,6},
-        {7,8,9}
-    };
+vector<vector<int> > matrix;
+matrix.push_back({1,2,3});
+matrix.push_back({4,5,6});
+matrix.push_back({7,8,9});
 
     int target = 3;
 
