@@ -1,7 +1,8 @@
 #include<iostream>
+#include<climits>
 using namespace std;
 int rowssum(int matrix[][3],int rows,int cols){
-    int maxsum= INT8_MIN;
+    int maxsum= INT_MIN;
     for(int i=0;i<rows;i++){
         int sum=0;
         for(int j=0;j<cols;j++){
