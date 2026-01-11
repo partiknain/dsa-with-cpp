@@ -79,3 +79,24 @@ Given a **square matrix**, calculate the sum of:
 * Conditional checks
 
 ---
+### 2 Maximum columns Sum in 2D Array
+
+**Problem Statement:**
+Find the **maximum sum of elements among all columns** in a given 2D matrix.
+
+**Approach:**
+
+* Traverse each columns.
+* Calculate the sum of elements in that columns.
+* Keep track of the maximum columns sum.
+
+**Time Complexity:** `O(rows × columns)`
+**Space Complexity:** `O(1)`
+
+**Key Concepts Used:**
+
+* columns-wise traversal
+* Accumulator variable
+* Maximum comparison
+
+---
