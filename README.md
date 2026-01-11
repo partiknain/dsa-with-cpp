@@ -43,6 +43,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -  linearsearch.cpp    ->problem of searching element in 2D array using linear search
 -  maxrowsum.cpp     ->problem of to find maximum sum of rows in a matrix
 -  search.cpp        ->problem of leetcode search in 2d matrix
+-  maximum-columns-sum.cpp   ->problem of to find maximum sum of columns in a matrix
 
 ## How to Run
 
