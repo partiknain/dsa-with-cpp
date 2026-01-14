@@ -2,9 +2,7 @@
 
 This folder contains implementation of basic sorting algorithms in C++.
 Each algorithm is written with clear logic and comments for better understanding.
-
 ---
-
 ##  Bubble Sort
 
 ###  Description
