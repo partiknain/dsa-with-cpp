@@ -3,9 +3,7 @@
 This repository contains **basic to intermediate 2D array problems** implemented in **C++**, focusing on strong fundamentals required for **DSA, LeetCode practice, and coding interviews**.
 
 The goal of this folder is to understand how to **traverse, process, and analyze matrices (2D arrays)** efficiently.
-
 ---
-
 ##  Problems Covered
 
 ### 1 Linear Search in 2D Array
