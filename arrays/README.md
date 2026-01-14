@@ -323,28 +323,19 @@ space complexity=O(1)
 
 ##  Overview
 Moore’s Voting Algorithm is an efficient algorithm used to find the **majority element** in an array.
-
 A **majority element** is an element that appears **more than ⌊ n/2 ⌋ times** in an array of size `n`.
-
 This algorithm works in **linear time** and **constant space**, making it optimal for large inputs.
-
 ---
-
 ##  Problem Statement
 Given an array of integers `nums`, find the **majority element**.
-
 You may assume that the majority element **always exists** in the array.
-
 ---
-
 ##  Key Idea
 - If an element appears more than `n/2` times, it will **remain after cancelling out other elements**
 - The algorithm maintains:
   - a **candidate**
   - a **count**
-
 ---
-
 ##  Algorithm Steps
 
 1. Initialize `count = 0` and `candidate = 0`
