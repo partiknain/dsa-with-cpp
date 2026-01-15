@@ -45,6 +45,8 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -  search.cpp        ->problem of leetcode search in 2d matrix
 -  maximum-columns-sum.cpp   ->problem of to find maximum sum of columns in a matrix
 
+## hashing 
+-  two_sum.cpp     ->problem of two sum using hashing
 ## How to Run
 
 1. Open the file in VS Code or any C++ IDE
