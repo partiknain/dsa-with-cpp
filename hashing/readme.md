@@ -1,1 +1,2 @@
-we can add problem using hashing aproches.
+# hashing problems
+## in this folder all problem are solved using hashing
