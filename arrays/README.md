@@ -8,6 +8,7 @@ Find **two lines** that together with the x-axis form a container, such that the
 
 ---
 
+
 ##  Key Insight
 The amount of water a container can store depends on:
 - **Width** = distance between the two lines
