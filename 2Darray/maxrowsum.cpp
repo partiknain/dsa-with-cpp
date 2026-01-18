@@ -8,6 +8,7 @@ int rowssum(int matrix[][3],int rows,int cols){
         for(int j=0;j<cols;j++){
             sum+=matrix[i][j];
         }
+        
         maxsum=max(maxsum,sum);
     }
     return maxsum;
