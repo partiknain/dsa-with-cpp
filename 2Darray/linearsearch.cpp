@@ -8,6 +8,7 @@ pair<int,int>linearsearch(int matrix[][3],int rows,int cols,int key){
             }
         }
     }
+    
     return {-1,-1};
 }
 int main (){
