@@ -12,6 +12,7 @@ int main (){
         currsum=0;
       }
     }
+    
     cout<<"maximum sum ofsubarray is "<<maxsum<<endl;
     return 0;
 }
