@@ -47,6 +47,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 
 ## hashing 
 -  two_sum.cpp     ->problem of two sum using hashing
+-  duplicate.cpp   ->problem of to find duplicate using hashing 
 ## How to Run
 
 1. Open the file in VS Code or any C++ IDE
