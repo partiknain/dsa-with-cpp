@@ -13,6 +13,7 @@ Given a 2D matrix and a target element, search for the element using **linear se
 
 **Approach:**
 
+
 * Traverse the matrix row by row.
 * Compare each element with the target.
 * If found, return its **row and column index**.
