@@ -10,7 +10,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 - subarray.cpp ->  Subarray Problem
 - kadane.cpp -> Maximum Subarray (Kadane’s Algorithm)
 - mostwater.cpp -> Container With Most Water (Brute Force)
-- water-container-usingtwo-pointer.cpp -> Container With Most Water (Two Pointer)
+- water-container-using two-pointer.cpp -> Container With Most Water (Two Pointer)
 - rotatedarray.cpp    ->search in rotated sorted array(binary search algorithm)
 - peakindex.cpp     ->search a peak index of mountain (binarysearch algorithm)
 - merge-sorted-array.cpp  -->merge two sorted arrayproblem
