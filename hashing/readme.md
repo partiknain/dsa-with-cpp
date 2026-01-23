@@ -1,9 +1,7 @@
 # Hashing Problems -
 
 This repository contains simple and efficient solutions for common **array problems using hashing**. These problems are frequently asked in coding interviews and are great for understanding how hash-based data structures improve time complexity.
-
 ---
-
 ##  Problems Covered
 
 ### 1 Pair Sum (Two Sum) Using Hashing
