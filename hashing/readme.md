@@ -11,8 +11,7 @@ This repository contains simple and efficient solutions for common **array probl
 **Problem Statement:**
 Given an array of integers and a target value, determine whether there exists a pair of elements whose sum is equal to the target.
 
-**Example:**
-
+**Example:*
 ```
 Input:  nums = [2, 7, 11, 15], target = 9
 Output: Pair exists (2 + 7 = 9)
