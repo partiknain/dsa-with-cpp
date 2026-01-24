@@ -49,7 +49,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 ## hashing 
 -  two_sum.cpp     ->problem of two sum using hashing
 -  duplicate.cpp   ->problem of to find duplicate using hashing
--  3_sum.cpp      ->problem of  to find three element which sum is zero
+-  3_sum.cpp      ->problem of  3_sum on leetcode
 
   
 ## How to Run
