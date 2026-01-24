@@ -66,3 +66,35 @@ Hash sets store unique elements and allow fast checking for existence.
 * Time & Space Complexity Optimization
 
 ---
+# 3Sum Problem (Two Pointer Approach)
+
+## Problem Statement
+Given an integer array `nums`, return all unique triplets  
+`[nums[i], nums[j], nums[k]]` such that:
+
+- `i != j`, `i != k`, and `j != k`
+- `nums[i] + nums[j] + nums[k] == 0`
+
+The solution must not contain duplicate triplets.
+
+---
+
+---
+
+## Approach: Two Pointer Technique
+
+1. Sort the array.
+2. Fix one element at index `i`.
+3. Use two pointers:
+   - `left = i + 1`
+   - `right = n - 1`
+4. Calculate the sum of `nums[i] + nums[left] + nums[right]`
+   - If sum < 0 → move `left`
+   - If sum > 0 → move `right`
+   - If sum == 0 → store the triplet
+5. Skip duplicate elements to avoid repeated triplets.
+
+---
+
+### time complexity is O(n^2)
+### time complexity is O(1)(excluding ouput)
