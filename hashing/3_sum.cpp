@@ -39,3 +39,5 @@ int main (){
     }
 return 0;
 }
+//time complexity = O(n^2 * log(unique trilets))
+//space complexity = O(unique triplets +n)
