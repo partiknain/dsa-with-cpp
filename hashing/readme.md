@@ -38,6 +38,7 @@ Given an array of integers, find whether any element appears more than once.
 
 **Example:**
 
+
 ```
 Input:  nums = [1, 2, 3, 4, 2]
 Output: Duplicate found (2)
