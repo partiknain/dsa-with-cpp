@@ -28,6 +28,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -  linear.cpp   ->linear search algorithm
 -  binary.cpp   ->binary search algorithm
 
+
 ## string
 -  reverse.cpp     -->reverse of string problem
 -  palindrom.cpp   -->problem of palindrome of string
