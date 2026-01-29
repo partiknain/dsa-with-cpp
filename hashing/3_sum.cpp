@@ -6,8 +6,6 @@ using namespace std;
 vector<vector<int> > triplet(vector<int> nums) {
     sort(nums.begin(), nums.end());
     int n = nums.size();
-    vector<vector<int> > ans;
-
     for(int i = 0; i < n; i++) {
         if(i > 0 && nums[i] == nums[i-1]) continue;
 
@@ -33,8 +31,9 @@ vector<vector<int> > triplet(vector<int> nums) {
             }
         }
     }
-    return ans;
+    return temp;
 }
+
 
 int main() {
     vector<int> nums;
