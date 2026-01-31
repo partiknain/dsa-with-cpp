@@ -99,3 +99,47 @@ The solution must not contain duplicate triplets.
 
 ### time complexity is O(n^2)
 ### time complexity is O(1)(excluding ouput)
+
+---
+# 4 Sum Problem (Two Pointer Approach)
+
+## Problem Statement
+Given an array of integers `nums` and an integer `target`, return all **unique quadruplets**
+`[nums[i], nums[j], nums[k], nums[l]]` such that:
+
+nums[i] + nums[j] + nums[k] + nums[l] = target
+
+### Conditions:
+- All indices `i, j, k, l` must be different
+- The solution must not contain duplicate quadruplets
+
+---
+
+
+## Approach (Two Pointer Technique)
+
+1. Sort the array
+2. Fix the first element using loop `i`
+3. Fix the second element using loop `j`
+4. Use two pointers (`left` and `right`) for the remaining two elements
+5. Calculate the sum:
+   - If sum equals target → store the quadruplet
+   - If sum is less than target → move `left` pointer forward
+   - If sum is greater than target → move `right` pointer backward
+6. Skip duplicate elements to avoid repeated quadruplets
+
+---
+
+## Algorithm
+
+1. Sort the input array
+2. Run a loop from index `0` to `n-4` for the first element
+3. Run another loop from `i+1` to `n-3` for the second element
+4. Apply two pointer technique on the remaining part of the array
+5. Skip duplicate values at every step
+6. Print or store valid quadruplets
+
+---
+
+time complexity is O(n^3)
+space coplexity is o(1) because no extra space used
