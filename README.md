@@ -38,8 +38,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 ## recursion
 -  factorial.cpp    ->problem of factorial of a number using recursion 
 -  fibonacci.cpp    ->problem of fibonacci series using recursion
-
-
+- sum.cpp          ->problem of sum upto n
 ## 2D array
 -  diagonalsum.cpp   ->problem of to find sum of diagonals in matrix
 -  linearsearch.cpp    ->problem of searching element in 2D array using linear search
