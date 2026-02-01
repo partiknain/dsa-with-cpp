@@ -37,3 +37,6 @@ It starts with 0 and 1.
 - Recursion helps simplify problems like Factorial and Fibonacci.
 - Always define a **base case** to avoid infinite recursion.
 - For Fibonacci, recursion is simple but not efficient for large n; consider dynamic programming for optimization.
+
+---
+## sum upto n
