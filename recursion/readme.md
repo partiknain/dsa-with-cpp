@@ -39,4 +39,28 @@ It starts with 0 and 1.
 - For Fibonacci, recursion is simple but not efficient for large n; consider dynamic programming for optimization.
 
 ---
-## sum upto n
+# Sum of Numbers Up to N (Using Recursion)
+
+##  Problem Statement
+Given a number **N**, find the sum of all natural numbers from **1 to N** using **recursion**.
+
+---
+
+##  Concept Used
+- **Recursion**
+- A function calling itself until a base condition is met.
+
+---
+
+##  Recursive Logic
+To find the sum of numbers from 1 to N:
+
+- If **N = 0**, return `0` (base case)
+- Otherwise, return  
+  `N + sum(N - 1)`
+
+---
+## complexity
+time complexity is O(n)
+space complexity is o(n)
+---
