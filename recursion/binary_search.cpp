@@ -22,7 +22,7 @@ int main (){
     // time complexity is O(log n)
     // space complexity is O(log n)
     int arr[]={-1,2,4,5,7,9};
-    int n=sizeof(arr);
+    int n=6;
     int tar=5;
     cout<<"element is found at index"<<search(arr,tar,n);
     return 0;
