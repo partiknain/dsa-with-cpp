@@ -98,7 +98,60 @@ In this project, Binary Search is implemented using **recursion**.
 6. If `low > high`, return `-1` (element not found)
 
 ---
-time complexity is O(log n)
-space complexity is O(log n) due to recursive call stack
+-  time complexity is O(log n)
+-  space complexity is O(log n) due to recursive call stack
 
 ---
+
+# Check If an Array Is Sorted
+
+##  Introduction
+This problem checks whether a given array is **sorted in ascending order** or not.
+
+An array is said to be sorted if **each element is smaller than or equal to the next element**.
+
+---
+
+##  Problem Statement
+Given an array of integers, determine whether the array is sorted in **non-decreasing (ascending) order**.
+
+---
+
+##  Example
+
+### Example 1
+**Input:**  
+`arr = {1, 2, 3, 4, 5}`  
+
+**Output:**  
+`Array is sorted`
+
+### Example 2
+**Input:**  
+`arr = {1, 3, 2, 5}`  
+
+**Output:**  
+`Array is not sorted`
+
+---
+
+##  Approach (Using Recursion)
+1. Compare the current element with the next element.
+2. If the current element is greater than the next one, the array is **not sorted**.
+3. Otherwise, move to the next index recursively.
+4. If the end of the array is reached, the array is **sorted**.
+
+---
+
+##  Algorithm
+1. If array size is `0` or `1`, return `true`
+2. If `arr[index] > arr[index + 1]`, return `false`
+3. Recursively check the remaining array
+4. Return the final result
+
+---
+
+-  time complexity is O(n)
+-  space complexity is O(n) due to recursive call stack
+
+  ---
