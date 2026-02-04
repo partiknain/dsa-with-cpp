@@ -64,3 +64,41 @@ To find the sum of numbers from 1 to N:
 time complexity is O(n)
 space complexity is o(n)
 ---
+
+# Binary Search Using Recursion
+
+##  Introduction
+Binary Search is an efficient searching algorithm used to find an element in a **sorted array**.  
+It works by repeatedly dividing the search range into half.
+
+In this project, Binary Search is implemented using **recursion**.
+
+---
+
+##  How Binary Search Works
+1. Find the middle element of the array.
+2. If the middle element is equal to the target, return its index.
+3. If the target is smaller than the middle element, search in the left half.
+4. If the target is greater than the middle element, search in the right half.
+5. Repeat the process recursively until the element is found or the range becomes invalid.
+
+---
+
+##  Important Condition
+- The array **must be sorted** before applying Binary Search.
+
+---
+
+##  Algorithm
+1. Set `low = 0` and `high = n - 1`
+2. Find `mid = (low + high) / 2`
+3. If `arr[mid] == target`, return `mid`
+4. If `arr[mid] > target`, call binary search on left half
+5. If `arr[mid] < target`, call binary search on right half
+6. If `low > high`, return `-1` (element not found)
+
+---
+time complexity is O(log n)
+space complexity is O(log n) due to recursive call stack
+
+---
