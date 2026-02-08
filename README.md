@@ -40,6 +40,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -  fibonacci.cpp    ->problem of fibonacci series using recursion
 -  sum.cpp          ->problem of sum upto n
 -  binary_search.cpp   -> problem of binary search using recursion
+-  subset_using_recursion.cpp  -> problem of find all subset using recursion and with backtracking 
 -  
 ## 2D array
 -  diagonalsum.cpp   ->problem of to find sum of diagonals in matrix
