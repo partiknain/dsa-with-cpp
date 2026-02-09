@@ -41,7 +41,8 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -  sum.cpp          ->problem of sum upto n
 -  binary_search.cpp   -> problem of binary search using recursion
 -  subset_using_recursion.cpp  -> problem of find all subset using recursion and with backtracking 
--  
+-   subset||.cpp     -> problem of find all subset of leetcode 
+
 ## 2D array
 -  diagonalsum.cpp   ->problem of to find sum of diagonals in matrix
 -  linearsearch.cpp    ->problem of searching element in 2D array using linear search
