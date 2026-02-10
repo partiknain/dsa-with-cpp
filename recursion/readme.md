@@ -241,3 +241,69 @@ O(n)
 Recursion stack depth + subset storage.
 
 ---
+#  Subsets II (Duplicates Elements Allowed)
+
+##  Problem Statement
+
+Given an integer array `nums` that **may contain duplicates**, return all possible subsets.
+
+The solution set must **not contain duplicate subsets**.
+
+---
+
+##  Example
+
+```
+Input: nums = [1,2,2]
+
+Output:
+[
+ [],
+ [1],
+ [2],
+ [1,2],
+ [2,2],
+ [1,2,2]
+]
+```
+
+---
+
+##  Key Idea
+
+Because duplicates exist:
+
+ First **sort the array**
+ Skip duplicate elements during recursion
+
+Condition used:
+
+```
+if(index > i && nums[index] == nums[index-1]) continue;
+```
+
+---
+
+##  Approach – Backtracking + Duplicate Skip
+
+1. Sort array
+2. Generate subsets
+3. Skip same elements at same recursion level
+---
+
+##  Time Complexity
+
+```
+O(2ⁿ)
+```
+
+(Skipping duplicates reduces extra work but worst case same)
+
+---
+
+##  Space Complexity
+
+```
+O(2ⁿ)
+```
+---
