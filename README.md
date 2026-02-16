@@ -21,7 +21,6 @@ This repository contains solutions to various Data Structures and Algorithms pro
 
 ## Sorting
 
-
 - selection-sort.cpp -> Selection Sort
 - bubble-sort.cpp    ->  Bubble Sort
 - insertion-sort.cpp   -> Insertion Sort
