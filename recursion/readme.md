@@ -14,7 +14,6 @@ It is denoted by `n!`.
 **Space Complexity:** O(n) (due to recursion stack)
 
 ---
-
 ## Fibonacci Series
 The Fibonacci series is a sequence where each number is the sum of the two preceding ones.
 It starts with 0 and 1.
