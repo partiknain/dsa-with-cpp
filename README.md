@@ -4,7 +4,6 @@ This repository contains solutions to various Data Structures and Algorithms pro
 
 ## Folder Structure
 
-
 ## Arrays
 - pair_sum.cpp    -> Pair Sum (Brute Force)
 - pair_sum_using_twopointer.cpp   -> Pair Sum (Two Pointer)
