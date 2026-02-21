@@ -23,6 +23,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 - selection-sort.cpp -> Selection Sort
 - bubble-sort.cpp    ->  Bubble Sort
 - insertion-sort.cpp   -> Insertion Sort
+- merge sort.cpp. ->. merge sort code in this file 
 
 ## searching
 -  linear.cpp   ->linear search algorithm
