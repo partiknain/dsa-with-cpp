@@ -23,7 +23,8 @@ This repository contains solutions to various Data Structures and Algorithms pro
 - selection-sort.cpp -> Selection Sort
 - bubble-sort.cpp    ->  Bubble Sort
 - insertion-sort.cpp   -> Insertion Sort
-- merge sort.cpp. ->. merge sort code in this file 
+- merge_sort.cpp -> merge sort 
+- quick_sort.cpp   -> quick sort
 
 ## searching
 -  linear.cpp   ->linear search algorithm
@@ -43,7 +44,6 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -  binary_search.cpp   -> problem of binary search using recursion
 -  subset_using_recursion.cpp  -> problem of find all subset using recursion and with backtracking 
 -   subset||.cpp     -> problem of find all subset of leetcode
--   permutation.cpp   ->problem of find all permutation of an array using recursion 
 
 ## 2D array
 -  diagonalsum.cpp   ->problem of to find sum of diagonals in matrix
@@ -58,7 +58,11 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -  3_sum.cpp      ->problem of  3_sum on leetcode
 -  4_sum.cpp     ->problem of 4 sum on leetcode
 
-  
+## backtracking
+-  combination.cpp    -> added problem of combination using backtracking
+-  palindrome_partioning   -> added problem of find all palindrome part using backtracking
+-  permutation.cpp     ->  added problem of permutation using backtracking
+-  subset.cpp       -> added problem of find all subset using backtracking
 ## How to Run
 
 1. Open the file in VS Code or any C++ IDE
