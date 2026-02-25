@@ -83,3 +83,47 @@ O(n*2^n)
 Recursion stack depth + subset storage.
 
 ---
+## Permutations using Backtracking (C++)
+
+### What is Permutation?
+
+A permutation is an arrangement of elements in all possible orders.
+
+
+If there are `n` elements → total permutations = **n!**
+
+---
+
+### Approach: Backtracking
+
+Backtracking is a recursive technique where we:
+
+1. Choose an element
+2. Explore further
+3. Undo the choice (backtrack)
+4. Try the next option
+
+---
+
+### Algorithm
+
+- Fix one element at a position
+- Recursively generate permutations for remaining elements
+- Swap back (Backtrack)
+
+---
+
+### Time Complexity
+
+O(n × n!)
+
+- There are n! permutations
+- Each permutation takes O(n) time to copy
+
+---
+
+###  Space Complexity
+
+O(n) → Recursive stack
+
+---
