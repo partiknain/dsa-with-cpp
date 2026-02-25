@@ -80,4 +80,77 @@ in the already sorted part of the array.
 | Insertion Sort| O(n)     | O(n²)    | O(n²)    | O(1)  |
 
 ---
+
+##  Merge Sort
+
+###  Definition
+Merge Sort is a Divide and Conquer algorithm that divides the array into halves, recursively sorts them, and then merges the sorted halves.
+
+---
+
+###  How It Works
+
+1. Divide the array into two halves.
+2. Recursively sort both halves.
+3. Merge the two sorted halves.
+
+---
+
+### Time Complexity
+
+| Case      | Complexity |
+|-----------|------------|
+| Best      | O(n log n) |
+| Average   | O(n log n) |
+| Worst     | O(n log n) |
+
+---
+
+###  Space Complexity
+O(n) (uses extra temporary array)
+
+---
+## Quick Sort 
+### Working Principle
+
+- Choose a pivot (commonly first/last element)
+- Partition the array so:
+  - Elements smaller than pivot go left
+  - Elements greater than pivot go right
+- Recursively apply same process to subarrays
+
+---
+
+### Time Complexity
+
+| Case      | Complexity |
+|-----------|------------|
+| Best      | O(n log n) |
+| Average   | O(n log n) |
+| Worst     | O(n²) |
+
+ Worst case happens when array is already sorted and pivot selection is poor.
+
+---
+
+### Space Complexity
+
+O(log n) → Due to recursion stack
+
+---
+
+### Advantages
+
+- Faster in practice than Merge Sort
+- In-place sorting (no extra array needed)
+- Good cache performance
+
+---
+
+### Disadvantages
+
+- Worst case O(n²)
+- Not stable
+- Recursive (stack space used)
+
 ---
