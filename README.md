@@ -63,6 +63,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -  palindrome_partioning   -> added problem of find all palindrome part using backtracking
 -  permutation.cpp     ->  added problem of permutation using backtracking
 -  subset.cpp       -> added problem of find all subset using backtracking
+-  rat_in_a_maze.cpp    ->added problem of rat in a maze
 ## How to Run
 
 1. Open the file in VS Code or any C++ IDE
