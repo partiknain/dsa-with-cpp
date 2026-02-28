@@ -20,7 +20,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 
 ## Sorting
 
-- selection-sort.cpp -> Selection Sort
+- selection-sort.cpp ->.  selection Sort
 - bubble-sort.cpp    ->  Bubble Sort
 - insertion-sort.cpp   -> Insertion Sort
 - merge_sort.cpp -> merge sort 
