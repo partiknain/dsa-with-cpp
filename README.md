@@ -64,6 +64,11 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -  permutation.cpp     ->  added problem of permutation using backtracking
 -  subset.cpp       -> added problem of find all subset using backtracking
 -  rat_in_a_maze.cpp    ->added problem of rat in a maze
+
+## linked list
+-   push_operation.cpp     ->added all push operation of linked list
+-   pop_operation.cpp      ->added all pop operation of linked list
+-   reverse_linked_list.cpp     ->added problem of reverse of linked list
 ## How to Run
 
 1. Open the file in VS Code or any C++ IDE
