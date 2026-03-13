@@ -69,6 +69,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -   pop_operation.cpp      ->added all pop operation of linked list
 -   reverse_linked_list.cpp     ->added problem of reverse of linked list
 -   middle_linked_list.cpp    ->added a problem of find middle of linked list using slow fast pointer
+-   doubly_linked_ list
 ## How to Run
 
 1. Open the file in VS Code or any C++ IDE
