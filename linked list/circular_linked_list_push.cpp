@@ -28,6 +28,18 @@ void push_front(int val){
         tail->next=head;
     }
 }
+void push_back(int val){
+    node* newnode=new node(val);
+    if(head==NULL){
+        head=tail=newnode;
+        tail->next=head;
+    }
+    else{
+        tail->next=newnode;
+        newnode->next=head;
+        tail=newnode;
+    }
+}
 void print(){
     if(head==NULL) return ;
     cout<<head->data<<"->";
@@ -44,6 +56,7 @@ int main (){
     l.push_front(3);
     l.push_front(2);
     l.push_front(1);
+    l.push_back(4);
     l.print();
     return 0;
 }
