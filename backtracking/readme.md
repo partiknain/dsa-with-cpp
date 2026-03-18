@@ -10,7 +10,6 @@ A subset is any combination of elements taken from the array. It can include:
 * One element
 * Multiple elements
 * All elements
-
 ---
 
 ##  Example
