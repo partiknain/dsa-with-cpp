@@ -73,6 +73,9 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -   doubly_linked_ list_pop.cpp  ->added all pop operation of a doubly linked list
 -   circular_linked_ list_push.cpp  ->added all push operation of a circular linked list
 -   circular_linked_ list_pop.cpp  ->added all pop operation of a circular linked list
+
+## stack
+-  stack_using_vector.cpp   ->added stack implimentation using vector
 ## How to Run
 
 1. Open the file in VS Code or any C++ IDE
