@@ -340,3 +340,158 @@ They teach:
 * Left/right nearest element logic
 * Interview problem patterns
 ---
+# Stack Problems README – Trapping Rainwater and Celebrity Problem
+
+## 1) Introduction
+
+These two are **classic interview problems** that are frequently asked in DSA rounds.
+
+* **Trapping Rainwater** teaches prefix/suffix and stack thinking
+* **Celebrity Problem** teaches stack elimination logic
+
+Both problems focus on **optimized problem-solving patterns** and are very important for placements.
+
+---
+
+## 2) Trapping Rainwater Problem
+
+The **Trapping Rainwater** problem asks us to calculate how much water can be stored between buildings after rainfall.
+
+Each array element represents the **height of a building/bar**.
+
+### Core Idea
+
+Water above any building depends on:
+
+* Maximum height on the **left side**
+* Maximum height on the **right side**
+* Current building height
+
+The trapped water at any index is:
+
+* Minimum of left max and right max
+* Minus current height
+
+### Intuition
+
+If a building has taller bars on both sides, water can be trapped.
+
+The smaller side decides the water level.
+
+### Best Approaches
+
+This problem can be solved using:
+
+* Prefix max and suffix max arrays
+* Two pointer approach
+* Monotonic stack
+
+### Time Complexity
+
+* **O(n)**
+
+### Space Complexity
+
+* **O(n)** using arrays
+* **O(1)** using two pointers
+
+### Applications
+
+* Water storage simulation
+* Elevation mapping
+* Terrain analysis
+* Drainage systems
+
+---
+
+## 3) Celebrity Problem
+
+The **Celebrity Problem** is based on a party scenario.
+
+A celebrity is a person who:
+
+1. **Everyone knows them**
+2. **They know no one**
+
+The task is to find whether a celebrity exists.
+
+### Core Idea
+
+Instead of checking every person with everyone, we eliminate impossible candidates.
+
+### Stack Logic
+
+* Push all people into stack
+* Compare top two people
+* Remove the one who cannot be celebrity
+* Continue until one candidate remains
+* Verify final candidate
+
+### Elimination Rule
+
+If person A knows B:
+
+* A cannot be celebrity
+
+Else:
+
+* B cannot be celebrity
+
+This reduces many unnecessary checks.
+
+### Time Complexity
+
+* **O(n)**
+
+### Space Complexity
+
+* **O(n)** using stack
+
+### Applications
+
+* Social network influence detection
+* Graph sink node problem
+* Dependency elimination logic
+* Matrix relationship problems
+
+---
+
+## 4) Common Pattern
+
+Both problems teach **optimization using smart observations**.
+
+### Trapping Rainwater Pattern
+
+* Left boundary
+* Right boundary
+* Minimum wall decides answer
+
+### Celebrity Pattern
+
+* Eliminate impossible candidates quickly
+* Verify only one final answer
+
+---
+
+## 5) Comparison Table
+
+| Problem            | Main Idea               | Best Technique               | Time |
+| ------------------ | ----------------------- | ---------------------------- | ---- |
+| Trapping Rainwater | Left & right boundaries | Prefix/Suffix or Two Pointer | O(n) |
+| Celebrity Problem  | Candidate elimination   | Stack                        | O(n) |
+
+---
+
+
+## 7) Conclusion
+
+**Trapping Rainwater** and **Celebrity Problem** are must-do DSA questions.
+
+They help in understanding:
+
+* Prefix and suffix concepts
+* Boundary-based logic
+* Stack elimination
+* O(n) optimization
+
+If you master these, many advanced array and stack interview problems become easier.
