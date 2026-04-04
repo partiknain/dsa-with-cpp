@@ -75,9 +75,11 @@ This repository contains solutions to various Data Structures and Algorithms pro
 
 ## stack
 -  stack_using_vector.cpp   ->added stack implimentation using vector
-
-
-
+-  stack_using_linked_list.cpp    ->added stack implimentation using linked list
+-  stack_using_stl.cpp    ->added stack implimentation using stl
+-  stock_span.cpp     ->added a problem of stock span using stack
+-  next_greater_element.cpp   ->added a problem find next greater element using stack
+-  previous_smallest_element.cpp    ->added a problem find previous smallest element using stack
 ## How to Run
 
 1. Open the file in VS Code or any C++ IDE
