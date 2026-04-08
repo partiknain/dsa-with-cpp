@@ -82,6 +82,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -  previous_smallest_element.cpp    ->added a problem find previous smallest element using stack
 -  trapping_rainwater.cpp     ->added a problem of trapping rainwater using two pointer approach
 -  celebrity.cpp   -> added problem of celebrity using stack data structure
+-  
 ## How to Run
 
 1. Open the file in VS Code or any C++ IDE
