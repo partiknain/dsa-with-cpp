@@ -82,7 +82,10 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -  previous_smallest_element.cpp    ->added a problem find previous smallest element using stack
 -  trapping_rainwater.cpp     ->added a problem of trapping rainwater using two pointer approach
 -  celebrity.cpp   -> added problem of celebrity using stack data structure
--  
+
+## queue
+-  queue_using_linked_list.cpp -> added all operation of queue using linked list
+-  queue_using_stl.cpp -> added all operation using stl
 ## How to Run
 
 
