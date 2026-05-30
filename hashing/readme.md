@@ -143,3 +143,112 @@ nums[i] + nums[j] + nums[k] + nums[l] = target
 
 time complexity is O(n^3)
 space coplexity is o(1) because no extra space used
+
+---
+## LeetCode 219 - Contains Duplicate II
+
+## Problem Statement
+
+Given an integer array `nums` and an integer `k`, return `true` if there are two distinct indices `i` and `j` in the array such that:
+
+* `nums[i] == nums[j]`
+* `|i - j| <= k`
+
+Otherwise, return `false`.
+
+---
+
+## Example 1
+
+Input:
+
+```text
+nums = [1,2,3,1]
+k = 3
+```
+
+Output:
+
+```text
+true
+```
+
+Explanation:
+
+The value `1` appears at indices `0` and `3`.
+
+```text
+|3 - 0| = 3
+```
+
+Since `3 <= k`, the answer is `true`.
+
+---
+
+## Approach
+
+### Hash Map
+
+Store the most recent index of each element in an unordered map.
+
+While traversing the array:
+
+1. Check whether the current element has appeared before.
+2. If it has, calculate the difference between the current index and the previous index.
+3. If the difference is less than or equal to `k`, return `true`.
+4. Otherwise, update the latest index of the element.
+5. Continue until the end of the array.
+
+---
+
+## Algorithm
+
+1. Create an unordered map to store element → last seen index.
+2. Traverse the array from left to right.
+3. For each element:
+
+   * If it already exists in the map:
+
+     * Compute the index difference.
+     * If difference ≤ `k`, return `true`.
+   * Update its latest index.
+4. If no valid pair is found, return `false`.
+
+---
+
+## Complexity Analysis
+
+### Time Complexity
+
+```text
+O(n)
+```
+
+Each element is processed once.
+
+### Space Complexity
+
+```text
+O(n)
+```
+
+The hash map may store all unique elements.
+
+---
+
+## Key Learning
+
+* Hash Map for fast lookup.
+* Index tracking.
+* Duplicate detection within a given range.
+* Frequently asked interview pattern.
+
+---
+
+## Tags
+
+* Array
+* Hash Tabsle
+* Sliding Window
+* LeetCode 219
+---
