@@ -91,3 +91,70 @@ public:
         return front == NULL;
     }
 };
+
+---
+# Circular Queue Implementation in C++
+
+## Overview
+This project implements a **Circular Queue** using an array in C++. A Circular Queue is a linear data structure that follows the **FIFO (First In First Out)** principle and efficiently utilizes memory by connecting the last position of the queue back to the first.
+
+## Features
+- Enqueue (Insert Element)
+- Dequeue (Remove Element)
+- Get Front Element
+- Get Rear Element
+- Check if Queue is Empty
+- Check if Queue is Full
+- Efficient Memory Utilization
+
+## Data Structure
+The Circular Queue maintains:
+- `front` : Index of the first element
+- `rear` : Index of the last element
+- `size` : Current number of elements
+- `capacity` : Maximum size of the queue
+- `arr[]` : Array to store queue elements
+
+## Operations
+
+### Enqueue
+Adds an element to the rear of the queue.
+
+### Dequeue
+Removes an element from the front of the queue.
+
+### Front
+Returns the front element of the queue.
+
+### Rear
+Returns the last element of the queue.
+
+### IsEmpty
+Checks whether the queue is empty.
+
+### IsFull
+Checks whether the queue is full.
+
+## Time Complexity
+
+| Operation | Complexity |
+|-----------|------------|
+| Enqueue   | O(1) |
+| Dequeue   | O(1) |
+| Front     | O(1) |
+| Rear      | O(1) |
+| IsEmpty   | O(1) |
+| IsFull    | O(1) |
+
+## Example
+
+```cpp
+CircularQueue q(5);
+
+q.push(10);
+q.push(20);
+q.push(30);
+
+q.pop();
+
+cout << q.front();
