@@ -55,6 +55,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -  duplicate.cpp   ->problem of to find duplicate using hashing
 -  3_sum.cpp      ->problem of  3_sum on leetcode
 -  4_sum.cpp     ->problem of 4 sum on leetcode
+-  contains_duplicate2.cpp  -> added problem of duplicate and solve using sliding window approach
 
 ## backtracking
 -  combination.cpp    -> added problem of combination using backtracking
@@ -86,6 +87,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 ## queue
 -  queue_using_linked_list.cpp -> added all operation of queue using linked list
 -  queue_using_stl.cpp -> added all operation using stl
+-  circular_queue.cpp  -> added all operations of circular queue
 ## How to Run
 
 
