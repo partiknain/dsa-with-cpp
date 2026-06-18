@@ -158,3 +158,7 @@ q.push(30);
 q.pop();
 
 cout << q.front();
+
+
+---
+ ## unique charecter in a string 
