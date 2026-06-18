@@ -88,6 +88,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -  queue_using_linked_list.cpp -> added all operation of queue using linked list
 -  queue_using_stl.cpp -> added all operation using stl
 -  circular_queue.cpp  -> added all operations of circular queue
+-  unique_char_in_string.cpp  -> added problem of leetcode find unique character in a string using queue
 ## How to Run
 
 
