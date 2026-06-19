@@ -161,4 +161,129 @@ cout << q.front();
 
 
 ---
- ## unique charecter in a string 
+ # First Unique Character in a String
+
+## Problem Statement
+
+Given a string `s`, find the **first non-repeating character** in it and return its index. If no such character exists, return `-1`.
+
+### Example 1
+
+```text
+Input: s = "leetcode"
+Output: 0
+```
+
+### Example 2
+
+```text
+Input: s = "loveleetcode"
+Output: 2
+```
+
+### Example 3
+
+```text
+Input: s = "aabb"
+Output: -1
+```
+
+---
+
+## Approach
+
+### Frequency Counting
+
+1. Traverse the string and count the frequency of each character.
+2. Traverse the string again.
+3. Return the index of the first character whose frequency is `1`.
+4. If no unique character is found, return `-1`.
+
+---
+
+## C++ Solution
+
+```cpp
+class Solution {
+public:
+    int firstUniqChar(string s) {
+        vector<int> freq(26, 0);
+
+        for(char ch : s) {
+            freq[ch - 'a']++;
+        }
+
+        for(int i = 0; i < s.size(); i++) {
+            if(freq[s[i] - 'a'] == 1) {
+                return i;
+            }
+        }
+
+        return -1;
+    }
+};
+```
+
+---
+
+## Dry Run
+
+### Input
+
+```text
+s = "loveleetcode"
+```
+
+### Frequency Count
+
+```text
+l -> 2
+o -> 2
+v -> 1
+e -> 4
+t -> 1
+c -> 1
+d -> 1
+```
+
+### Traversal
+
+```text
+Index 0 -> l (freq = 2)
+Index 1 -> o (freq = 2)
+Index 2 -> v (freq = 1) ✅
+```
+
+### Output
+
+```text
+2
+```
+
+---
+
+## Complexity Analysis
+
+| Complexity       | Value |
+| ---------------- | ----- |
+| Time Complexity  | O(n)  |
+| Space Complexity | O(1)  |
+
+**Explanation:**
+
+* We traverse the string twice.
+* Frequency array size is fixed (26 lowercase letters), so space is constant.
+
+---
+
+## Key Learning
+
+* Frequency counting is a powerful technique for character-based problems.
+* Multiple traversals are often acceptable when they keep the solution simple and efficient.
+* Using a fixed-size array can reduce space usage compared to hash maps.
+
+---
+
+### Tags
+
+`String` `Hashing` `Array` `Frequency Count` `LeetCode 387`
