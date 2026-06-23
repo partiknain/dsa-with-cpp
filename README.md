@@ -89,7 +89,12 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -  queue_using_stl.cpp -> added all operation using stl
 -  circular_queue.cpp  -> added all operations of circular queue
 -  unique_char_in_string.cpp  -> added problem of leetcode find unique character in a string using queue
--  
+
+
+## tree
+-  binary_tree.cpp -> added operation for build a binary tree
+-  inorder_traversal.cpp  ->  added inorder traversal of a binary tree
+-  preorder_traversal.cpp  -> added preorder traversal of a binary tree
 ## How to Run
 
 
