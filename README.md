@@ -94,6 +94,8 @@ This repository contains solutions to various Data Structures and Algorithms pro
 -  binary_tree.cpp -> added operation for build a binary tree
 -  inorder_traversal.cpp  ->  added inorder traversal of a binary tree
 -  preorder_traversal.cpp  -> added preorder traversal of a binary tree
+-  height_of_tree.cpp   -> added problem of height of binary tree
+-  count_of_nodes.cpp   -> added problem of count all nodes of binary tree
 ## How to Run
 
 
