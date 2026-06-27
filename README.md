@@ -24,6 +24,7 @@ This repository contains solutions to various Data Structures and Algorithms pro
 - merge_sort.cpp -> merge sort 
 - quick_sort.cpp   -> quick sort
 
+
 ## searching
 -  linear.cpp   ->linear search algorithm
 -  binary.cpp   ->binary search algorithm
