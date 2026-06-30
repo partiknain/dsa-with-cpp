@@ -1,7 +1,6 @@
 # DSA with C++
 
 This repository contains solutions to various Data Structures and Algorithms problems implemented in C++.
-
 ## Folder Structure
 ## Arrays
 - pair_sum.cpp    -> Pair Sum (Brute Force)
